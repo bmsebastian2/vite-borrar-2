@@ -6,8 +6,8 @@ const Auth = ({ children }) => {
   const { user } = useContext(UserContext);
 
   if (!user) {
-    return <Navigate to="/logging" />;
+    return <Navigate to="/logging" replace={true} />;
   }
-    return children;
+  return children;
 };
 export default Auth;

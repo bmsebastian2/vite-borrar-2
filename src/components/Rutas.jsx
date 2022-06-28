@@ -16,7 +16,7 @@ const Rutas = () => {
         <Route path="/about" element={<About />} />
         <Route path="/logging" element={<Logging />} />
         <Route
-          path="/sistema"
+          path="/sistema"          
           element={
             <Auth>
               <Sistema />
