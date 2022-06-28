@@ -1,9 +1,11 @@
-import reactLogo from './assets/react.svg';
+import Header from './components/Header';
+import Rutas from './components/Rutas';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hola mundo</h1>
+    <div>
+      <Header />
+      <Rutas />
     </div>
   );
 }
